@@ -242,7 +242,7 @@
                     <span class="font-semibold">OC</span>
                 </div>
                 <div class="flex-1">
-                    <p class="font-medium">Olivia Chen</p>
+                    <p class="font-medium">{{ request.user.first_name}}</p>
                     <p class="text-sm text-gray-400">Admin</p>
                 </div>
                 <a href="{% url 'logout' %}" class="text-gray-400 hover:text-white" title="Logout">
